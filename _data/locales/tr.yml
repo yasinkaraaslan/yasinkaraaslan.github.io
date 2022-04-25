@@ -1,0 +1,78 @@
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: Gönderi
+  category: Kategori
+  tag: Etiket
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Ana sayfa
+  categories: Kategoriler
+  tags: Etiketler
+  archives: Arşiv
+  about: Hakkımda
+
+# the text displayed in the search bar & search results
+search:
+  hint: ara
+  cancel: İptal
+  no_results: Hiçbir sonuç bulunamadı.
+
+panel:
+  lastmod: Yakın zamanda güncellendi
+  trending_tags: Popüler Etiketler
+  toc: İçerikler
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: Bu gönderi yazar tarafından :LICENSE_NAME altında lisanslanmıştır.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: Bazı hakları saklıdır.
+  verbose: >-
+    Aksi belirtilmedikçe, bu sitedeki blog yazıları, yazar tarafından
+    Creative Commons Atıf 4.0 Uluslararası (CC BY 4.0) Lisansı altında lisanslanmıştır.
+
+meta: Powered by :PLATFORM with :THEME theme.
+
+not_found:
+  statment: Üzgünüz, bu linki yanlış yerleştirdik veya var olmayan bir şeye işaret ediyor.
+  hint_template: Yeniden aramak için :HEAD_BAKya dönün, veya :ARCHIVES_PAGEde arayın
+  head_back: Ana sayfa
+  archives_page: Arşiv
+
+# ----- Posts related labels -----
+
+post:
+  written_by: Yazan
+  posted: Gönderildi
+  updated: Güncellendi
+  words: kelime
+  pageview_measure: görüntüleme
+  read_time:
+    unit: dk
+    prompt: okuma
+  relate_posts: İlgili gönderiler
+  share: Paylaş
+  button:
+    next: Daha yeni
+    previous: Daha eski
+    copy_code:
+      succeed: Kopyalandı!
+    share_link:
+      title: Linki kopyala
+      succeed: Link başarıyla kopyalandı!
+  # pinned prompt of posts list on homepage
+  pin_prompt: Sabitlendi
+
+# categories page
+categories:
+  category_measure: Kategoriler
+  post_measure: Gönderiler

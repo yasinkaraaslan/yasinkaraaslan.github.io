@@ -1,0 +1,9 @@
+---
+title: TITLE
+date: YYYY-MM-DD HH:MM +0300
+categories: [TOP_CATEGORY, SUB_CATEGORY]
+tags: [TAG]     # TAG names must always be lowercase
+# author:
+#     name:
+#     link: https://example.com
+---
